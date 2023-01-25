@@ -40,8 +40,8 @@ frontend ara.tech-http-frontend
 	default_backend	 nginx_webservers
 	
 
-frontend  ara.tech-https-frontend
-	bind *:443 ssl crt /etc/letsencrypt/live/www.ruthmarcuss.tech.tech/fullchain.pem
+frontend  aratech.tech-https-frontend
+	bind *:443 ssl crt /etc/letsencrypt/live/www.aratech.tech/fullchain.pem
         default_backend nginx_webservers
 
 
